@@ -4,7 +4,7 @@ Standard-English:
 
 This program will display the number of total grades, avergage grade, and percentage
 of those grades above the average test score of a final. 
-The test scores for the final are stored in a file called final.txt, which we will open sand use
+The test scores for the final are stored in a file called final.txt, which we will open and use
 for the program. 
 
 We first read the grades in the in text file final.txt. 
