@@ -56,3 +56,37 @@ Percentage of grades above average= Percentages_past_Average
 main()
 
 """
+
+def main ():
+
+
+    gradelist = []
+
+    total_grades = len[final.txt]
+    gradelist.append(float(number))
+
+def total_grades():
+    infile = open(txt_file)
+    numbers = [number for number in infile]
+    infile.close()
+    gradelist = []
+    return total_grades 
+
+def cal_average(total_grades): 
+    result = sum(gradelist) / total_grades   
+    return result
+
+def Percentages_past_average(result):
+    percentage = (grades > cal_average)/total * 100 
+    return percentage
+
+
+Number of grades = total_grades():
+Average grade = cal_avergae(total): 
+Percentage of grades above average = Percentages_past_average
+
+print("Number of grades:", total_grades)
+print("Averge Grade:", cal_average)
+print("Percentage of grades above average:", Percentages_past_average) 
+
+main()
