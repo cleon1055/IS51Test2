@@ -21,3 +21,38 @@ To finsh, we display the total number of grades, grade average and percent of gr
 are higher than the average to the user. 
 
 """
+
+"""
+Pseudocode
+
+main ():
+
+
+    gradelist = []
+
+    total number of grades = lenth of lines in final.txt
+    append.each line in txt file to list1
+
+grade_list():
+    Read in final.txt file
+    create list = each line from file
+    close file
+    create a grade_list
+    return the grade_list
+
+def cal_average(total):
+    result = sum of all grades in gradelist / number of grades in gradelist 
+    return result
+
+def Percentages_past_avergage(result):
+    percentage = (grades > average)/total number of grades * 100 
+    return percentage
+
+
+Number of grades = number of grades in list one (len.lis1)
+Average grade = cal_avergae(total)
+Percentage of grades above average= Percentages_past_Average
+
+main()
+
+"""
